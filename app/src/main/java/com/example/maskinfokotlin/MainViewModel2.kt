@@ -40,7 +40,7 @@ class MainViewModel2: ViewModel() {
     TODO: 코루틴을 쓰지않으면 Retrofit이 제공하는 콜벡매소드를 통해 값을 받고 오류가 발생할때 처리 등을
      *    해주게되므로 코드량이 많아진다.
      */
-
+//test
     fun fetchStoreInfo() {
         //로딩시작
         loadingLiveData.value = true
