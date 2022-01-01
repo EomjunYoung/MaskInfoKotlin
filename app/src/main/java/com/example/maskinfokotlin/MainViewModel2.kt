@@ -17,7 +17,7 @@ class MainViewModel2: ViewModel() {
 //tests02
 //    private var service: MaskService
     private var service: MaskService? = null
-
+//test01
     init {
 //        val retrofit = Retrofit.Builder()
 //            .baseUrl(MaskService.BASE_URL)
