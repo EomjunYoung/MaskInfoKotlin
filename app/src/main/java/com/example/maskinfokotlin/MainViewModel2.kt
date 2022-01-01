@@ -9,7 +9,7 @@ import com.example.maskinfokotlin.repository.MaskService
 import kotlinx.coroutines.launch
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
-//test6
+//test7
 //클래스를 상속받을때는 ()< 필수, MainViewModel2는 기존 MainViewModel말고 내가 직접 코딩하기 위해 만든 것
 class MainViewModel2: ViewModel() {
     val itemLiveData = MutableLiveData<List<Store>>()
