@@ -14,7 +14,7 @@ import retrofit2.converter.moshi.MoshiConverterFactory
 class MainViewModel2: ViewModel() {
     val itemLiveData = MutableLiveData<List<Store>>()
     val loadingLiveData = MutableLiveData<Boolean>()
-//tests01
+//tests02
 //    private var service: MaskService
     private var service: MaskService? = null
 
