@@ -27,6 +27,7 @@ class MainViewModel2: ViewModel() {
 //
 //        service = retrofit.create(MaskService::class.java)
 
+//test1
         service = BaseService().getClient(MaskService.BASE_URL)?.create(MaskService::class.java)
 
         fetchStoreInfo()
